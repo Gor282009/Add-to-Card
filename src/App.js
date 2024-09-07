@@ -1,11 +1,11 @@
 import React from'react'
-import Products from './Components/Products';
-import Card from './Components/Card';
+import Product from './Redux/Product';
+import Card from './Redux/Card';
 
 function App () {
     return (
         <div>
-            <Products />
+            <Product />
             <Card />
         </div>
     );

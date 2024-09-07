@@ -1,11 +1,10 @@
 import React from 'react'
-import "../App.css"
 
 function Card() {
   return (
-    <div className='cont'>
+    <div>
         <h1>This is a Card Component</h1>
-        <button className="remove-btn">Remove</button>
+        <button>Remove</button>
     </div>
   )
 }
